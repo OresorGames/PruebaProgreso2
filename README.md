@@ -61,7 +61,7 @@ Usar postman para probar el servicio:
 </soap:Envelope>
 
 
-2. API REST: Gestión de Reservas
+## 2. API REST: Gestión de Reservas
 Pasos para ejecutar la API REST:
 Instalar dependencias: En la carpeta reservation_service, crea un entorno virtual e instala las dependencias necesarias:
 
@@ -102,7 +102,8 @@ URL: http://localhost:8000/api/reservations/{id}/ (reemplaza {id} con el ID de l
 Cancelar una reserva (Método: DELETE):
 
 URL: http://localhost:8000/api/reservations/cancel/{id}/ (reemplaza {id} con el ID de la reserva)
-3. Microservicio: Gestión de Inventario de Habitaciones
+
+## 3. Microservicio: Gestión de Inventario de Habitaciones
 Pasos para ejecutar el microservicio:
 Instalar dependencias: En la carpeta inventory_service, crea un entorno virtual e instala las dependencias necesarias:
 
